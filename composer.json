@@ -1,0 +1,27 @@
+{
+    "name": "f1monkey/monolog-extensions",
+    "description": "Additional handlers for monolog",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cyradin",
+            "email": "cyradin@protonmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.0",
+        "php": "^7.4",
+        "symfony/http-foundation": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "F1Monkey\\MonologExtensions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "F1Monkey\\MonologExtensions\\Tests\\": "tests/"
+        }
+    }
+}
